@@ -1,0 +1,33 @@
+.sobre-nos{
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 24px;
+}
+
+.sobre-nos__titulo{
+    color: var(--vermelho);
+    font-weight: 600;
+    width: 78px;
+    height: 24px;
+}
+
+.sobre-nos__chamada {
+    color: var(--azul);
+    font-weight: 600;
+    font-size: 48px;
+    width: 603px;
+    height: 60px;
+    letter-spacing: -0.02em;
+}
+
+.sobre-nos__texto {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 791px;
+    height: 60px;
+}

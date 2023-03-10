@@ -1,0 +1,51 @@
+.container {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 1em;
+    
+}
+
+.lista-menu {
+    display: flex;
+    margin-right: auto;
+    padding: 0 2em;
+}
+
+.lista-menu__item {
+    padding: 1em;
+}
+
+.titulo__logo--negrito {
+    font-size: 18px;
+}
+
+.container__imagem{
+    padding: 0.8em;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.container-texto__link{
+    padding: 1em;
+}
+
+.container-texto__botao {
+    background: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    border-radius: 8px;
+    width: 112px;
+    height: 44px;
+    color: var(--branco);
+    padding: 1em;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+
+}

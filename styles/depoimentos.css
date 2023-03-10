@@ -1,0 +1,48 @@
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--banco);
+    background:rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    margin-top: 0px;
+    margin-bottom: 96px;
+    margin-left: 112px;
+    margin-right: 112px;
+    padding: 64px;
+}
+
+.depoimentos__titulo{
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 16px;
+}
+
+.depoimentos__chamada{
+    color: var(--azul);
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    line-height: 44px;
+    flex: none;
+    padding: 64px;
+}
+
+.depoimentos__nome{
+    color: var(--azul);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.depoimentos__cargo{
+    color: var(--cinza);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.imagem__avatar{
+    padding: 15px;
+}

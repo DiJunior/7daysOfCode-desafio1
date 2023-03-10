@@ -1,0 +1,24 @@
+@import url("styles/header.css");
+@import url("styles/sobre.css");
+@import url("styles/metricas.css");
+@import url("styles/vagas.css");
+@import url("styles/depoimentos.css");
+@import url("styles/formulario.css");
+
+:root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --vermelho: #8E2424;
+    --fonte-principal: "Inter";
+    --azul: #101828;
+    --preto: #000000;
+    --cinza: #667085;
+    --cinza-claro: #98A2B3;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
